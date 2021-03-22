@@ -1,0 +1,5 @@
+C:\python_work\albert_Classification\model_data\albert\stack_v0\checkpoint-100000\pytorch_model.bin
+C:\python_work\albert_Classification\model_data\albert\stack_v1\checkpoint-100000\pytorch_model.bin
+C:\python_work\albert_Classification\model_data\albert\stack_v2\checkpoint-100000\pytorch_model.bin
+C:\python_work\albert_Classification\model_data\albert\stack_v3\checkpoint-100000\pytorch_model.bin
+C:\python_work\albert_Classification\model_data\albert\stack_v4\checkpoint-100000\pytorch_model.bin
