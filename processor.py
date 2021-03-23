@@ -12,13 +12,13 @@ logger = logging.getLogger(__name__)
 
 class newsProcessor(DataProcessor):
     def get_train_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, 'train1.txt'))
+        return self._create_examples(os.path.join(data_dir, 'train.txt'))
 
     def get_dev_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, 'dev1.txt'))
+        return self._create_examples(os.path.join(data_dir, 'dev.txt'))
 
     def get_test_examples(self, data_dir):
-        return self._create_examples(os.path.join(data_dir, 'test1.txt'))
+        return self._create_examples(os.path.join(data_dir, 'test.txt'))
 
     def get_labels(self):
         label2id = {'娱乐': 0, '财经': 1, '体育': 2, '家居': 3, '教育': 4,

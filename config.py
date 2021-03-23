@@ -27,7 +27,7 @@ class Args():
         parser.add_argument("--do_eval", default=True, action="store_true", help="是否进行验证")
         parser.add_argument("--do_stack", default=True, action="store_true", help="是否进行验证")
         parser.add_argument("--num_train_epochs", default=10, type=int, help="train epochs")
-        parser.add_argument('--save_steps', type=int, default=2, help="多少个step保存一次模型")
+        parser.add_argument('--save_steps', type=int, default=50, help="多少个step保存一次模型")
         parser.add_argument('--swa_start', default=3, type=int, help='the epoch when swa start')
 
         parser.add_argument('--gradient_accumulation_steps', type=int, default=1, help="在执行发现传播之前要累积的更新步骤数")
